@@ -1,0 +1,29 @@
+
+<template>
+
+    <div class="topBar">
+ <!--Nav Text at the top-->
+        <a style = "text-decoration: none; cursor: pointer;" onclick={handleHome}>Home | </a>
+        <a style = "text-decoration: none; cursor: pointer;" onclick={handleProducts}>Products | </a>
+        <a style = "text-decoration: none; cursor: pointer;" onclick={handleNews}>News</a>
+
+    </div>
+
+     <!--To Homepage Code-->
+<template if:true={homepage}> 
+    <my-home onimageclick={handleClick}></my-home>
+</template>
+
+     <!--To Products Code-->
+<template if:true={products}> 
+    <my-products></my-products>
+</template>
+
+     <!--To News Code-->
+<template if:true={news}> 
+    <my-news></my-news>
+</template>
+
+</template>
+
+

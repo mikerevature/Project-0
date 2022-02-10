@@ -1,0 +1,29 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #292929;
+}
+
+.titleBar {
+    background-color: #292929;
+    text-align: left;
+    height: 75px;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    line-height: 75px;
+}
+
+.titleBarText {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+ 
+}

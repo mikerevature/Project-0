@@ -1,0 +1,56 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;    
+}
+
+.centerMargin{
+    margin-top: 200px;
+
+    display: flex;
+
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+  }
+
+  .centerContent{
+    display: flex;
+
+    padding: 15px; 
+
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+  }
+
+  .myNavButtons img{
+    display: inline-flex; /* or inline-flex */
+    padding: 5px; 
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.textC{
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size:30px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .textD{
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size:18px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

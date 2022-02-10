@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@lwc/rollup-plugin": "^2.7.3",
+    "@rollup/plugin-replace": "^3.0.1",
+    "lwc": "^2.7.3",
+    "rollup": "^2.66.1"
+  }
+}

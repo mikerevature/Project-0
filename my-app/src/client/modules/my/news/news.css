@@ -1,0 +1,14 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;    
+}
+
+.centerContent{
+    display: flex;
+
+    padding: 15px; 
+
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
